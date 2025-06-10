@@ -1,0 +1,31 @@
+{
+  "Deepgram": {
+    "models": {
+      "Nova-2": {
+        "value": "nova-2",
+        "languages": {
+          "English-US": "en-US",
+          "Spanish": "es"
+        }
+      },
+      "Nova-1": {
+        "value": "nova-1",
+        "languages": {
+          "French": "fr",
+          "German": "de"
+        }
+      }
+    }
+  },
+  "Google": {
+    "models": {
+      "WaveNet-A": {
+        "value": "wavenet-a",
+        "languages": {
+          "Hindi": "hi-IN",
+          "English-UK": "en-GB"
+        }
+      }
+    }
+  }
+}
