@@ -9,7 +9,7 @@ export async function GET() {
   const data = fs.readFileSync(filePath, "utf8");
   const users = JSON.parse(data);
 
-  const user = users[0]; // Replace with real session logic later
+  const user = users[0]; 
 
   return NextResponse.json({ user });
 }
