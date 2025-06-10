@@ -4,7 +4,7 @@ import path from "path";
 
 const filePath = path.join(process.cwd(), "public", "users.json");
 
-// Simulate current user as the first user
+
 export async function GET() {
   const data = fs.readFileSync(filePath, "utf8");
   const users = JSON.parse(data);
